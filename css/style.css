@@ -1,0 +1,169 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html */
+html {
+    font-family: sans-serif;
+}
+
+/* comumn */
+/* container */
+.container {
+    width: 55%;
+    margin: 0 auto;
+}
+
+/* flexbox */
+.flexbox {
+    display: flex;  
+}
+
+/* wrap */
+.wrap {
+    flex-wrap: wrap;
+}
+
+/* img */
+img {
+    max-width: 100%;
+}
+
+/* li a  */
+li a{
+    text-decoration: none;
+    color: black    ;
+}
+
+/* background blue */
+.bg_blue {
+    background-color: #b4d0e7;
+}
+
+/* buttons  */
+.button {
+    background-color: #0061ff;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* header */
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    background-color: white;
+}
+
+/* heeader ul */
+header ul {
+    list-style-type: none;
+    display: flex;
+}
+
+/* header ul li */
+header ul li {
+    margin: 0 15px;
+}
+
+/* header */
+.header_content {
+    height: 80px;
+    align-items: center;
+}
+
+/* nav */
+nav {
+    width: 100%;
+    justify-content: space-between;
+    line-height: 80px;
+}
+
+/* header logo */
+.header_logo {
+    width: 150px;
+    margin-left: 10px;
+}
+
+/* main */
+/* jumbotron content  */
+/* main */
+main {
+    margin-top: 80px;
+}
+
+/* main container */
+.main_container {
+    margin: 0 auto;
+    width: 65%;
+    padding-bottom: 40px;
+}
+
+/* main container h1 */
+.main_container h1 {
+    padding: 40px 0;
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+/* contents */
+.column {
+    background-color: red;
+    width: calc(100% / 3);
+    border: 1px solid black;
+    height: 800px;
+}
+
+/* column bottom */
+.column_bottom {
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
+
+/* content column */
+.content_column {
+    background-color: red;
+    width: 40%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+/* content_column_big */
+.content_column_big {
+    background-color: blue;
+    width: 60%;
+}
+
+
+/* main square */
+.main_square {
+    width: calc(100% / 3);
+    height: 500px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+/* column actions */
+.column_actions {
+    background-color: green;
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+}
+
+/* footer */
+footer {
+    background-color: black;
+}
+
+
+/* footer bottom */
+.footer_bottom {
+    background-color: lime;
+}
